@@ -5,7 +5,8 @@ use cc;
 
 fn main() {
     cc::Build::new()
-        .file("src/triple.cpp")
+
+    .file("src/triple.cpp")
         .cpp(true)
 //        .compile("libtriple.a")
         .compile("libcppoxide.a");
